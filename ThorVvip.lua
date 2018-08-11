@@ -129,30 +129,30 @@ gg.clearResults()
 function WH625()
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("4.814603e21;3.5032462e-44;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1,900,553;178;37;2F::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
+gg.getResults(20)
 gg.editAll("120", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("-5.5693206e-40;4.814603e21;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2.25;3.75000071526;331,813D;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
+gg.getResults(20)
 gg.editAll("120", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("5.1848043e-44;-1.0285578e-38;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("720,918;1,081,081,860;397,358;50,331,648;2F::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
+gg.getResults(20)
 gg.editAll("120", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("304.00009155273;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("671,236,101;1,074,790,406;178;12;2F::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
+gg.getResults(20)
 gg.editAll("120", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("Success")
+gg.toast("SD 625 thor activated")
 end
 
 function WH660()
@@ -393,36 +393,24 @@ gg.toast("Success")
 end
 
 function C7()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("252,248,832;201,851,904;5,136", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("201,851,904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("683128", gg.TYPE_DWORD)
 gg.clearResults()
-gg.searchNumber("254,018,304;201,851,904;5,136", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("201,851,904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("683128", gg.TYPE_DWORD)
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("8200;16", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("14", gg.TYPE_DWORD)
 gg.clearResults()
-gg.searchNumber("3,874;201,851,904;16", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("201,851,904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("683128", gg.TYPE_DWORD)
-gg.clearResults()
-gg.searchNumber(" 3,846;201,851,904;16", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("201,851,904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("683128", gg.TYPE_DWORD)
-gg.toast("Yellow")
+gg.toast("Body Yellow Activated!")
 end
 
 function C8()
 gg.clearResults()
-  gg.searchNumber("32769;768;-2134900730", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("32769", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("32781", gg.TYPE_DWORD)
-  gg.toast("Success")
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("8196;256;8204;256;8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(500)
+gg.editAll("6", gg.TYPE_DWORD)
+gg.toast("perfect green Thor activated")
 end
 
 function C9()
@@ -762,6 +750,7 @@ JM = gg.multiChoice({
 "🚀Wallshot v2【Landed/EveryMatch】",
 "🚀Crosshair【Landed/EveryMatch】",
 "🚀No Recoil【Landed/EveryMatch】",
+"🚀New Magic Bullet【Landed/EveryMatch】",      
 'Back'},nil," 🇹 🇭 🇴 🇷 8055 ")
 if JM == nil then
 else
@@ -780,7 +769,8 @@ if JM[12] == true then S12k() end
 if JM[13] == true then Wv2() end
 if JM[14] == true then CH() end
 if JM[15] == true then NR() end
-if JM[16] == true then Main() end
+if JM[16] == true then NEWMB() end    
+if JM[17] == true then Main() end
 end
 end
 
@@ -933,14 +923,28 @@ end
 
 function HMB()
 gg.clearResults()
-gg. searchNumber("1,048,130,372 D;16;12.66705417633;1,119,194,409 D;1",16 ,false ,536870912 ,0 ,-1 )
-gg. searchYumber("16",16 ,false ,536870912 ,0 ,-1 )
-gg. getResults(3 )
-gg. editAll("120",16 )
-gg. toast("Success")
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber("90,77570343018F;0F;8F;15F;16F;18F;28F:512", gg.TYPE_DWORD, false)
+gg.setVisible(false)
+gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("9999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("successful")
 end 
 
-
+function NEWMB()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber("90.77570343018F;8.0F:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(500)
+gg.editAll("100", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("New Magic Bullet Activated")
+end
 
 function PMB()
 gg.clearResults()
@@ -1128,18 +1132,18 @@ gg.setRanges(32)
   end
   
  function NR()
-  gg.clearResults()
-  gg.searchNumber("1868784978;1850305641;28518", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("1868784978", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100000)
-  gg.editAll("1868756429", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.searchNumber("1750294898;1415932769;1819307365", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("1750294898;1415932769;1819307365", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100000)
-  gg.editAll("100000", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("Success")
+gg.clearResults()
+gg.searchNumber("1868784978;1850305641;28518", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1868784978", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1000)
+gg.editAll("1868756421", gg.TYPE_DWORD)
+gg.clearResults()
+gg.searchNumber("1750294898;1415932769;1819307365", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1750294898;1415932769;1819307365", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1000)
+gg.editAll("100000", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("No recoil Successful")
 end
 
 
